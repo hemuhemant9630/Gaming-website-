@@ -1,0 +1,348 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar Header /?????????????????????????????????????????????????????????????????????????????????? */
+  header {
+    background-color: #2c3e50;
+    padding: 20px 0;
+    border-top: 2px solid #ff6600;
+    animation: glow 2s infinite alternate;
+  }
+ 
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px #ff6600;
+    }
+    to {
+        box-shadow: 0 0 20px #ff6600;
+    }
+}
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-left: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar ul li a:hover {
+    color: #0ef;
+  }
+  
+  /* Hero Section ???????????????????????????????????????????????????????????????????????????????????*/
+  .hero {
+    position: relative;
+  }
+  
+  video {
+    width: 100%;
+  }
+  
+  /* Hero Content?????????????????????????????????????????????????????????????????????????????????????? */
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  /* About Us Section ??????????????????????????????????????????????????????????????????????????????????????*/
+  .about {
+    height: 600px;
+    text-align: center;
+    color: white;
+    background-image: url(pexels-matej-1074882.jpg);
+    
+  }
+  .about-content h2 {
+    font-size: 2.5em;
+    cursor: all-scroll;
+    padding-top: 100px;
+    text-align: left;
+    padding-left: 180px;
+  }
+  
+  .about-content p {
+    margin-bottom: 40px;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 800px;
+    margin-right: 40px;
+    cursor: all-scroll;
+    
+  }
+  .about-content p:hover{
+    font-size: larger;
+    color: #0ef;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: #0ef;
+  }
+  /* purchase section ////////????????????????????????????????????????????????????????????????????????????*/
+  .purchase{
+    
+    height: 750px;
+    text-align: center;
+    padding-top: 200px;
+  }
+  .container {
+    display: flex;
+    height: 700px;
+   background-image: url(FREESTYLIN_FINAL_LANDSCAPE_1920X1080_JPG-9928423d535d3d18f841.jpg);
+   
+   flex: content;
+   text-align: justify;
+   justify-content: center;
+  }
+  
+  .form {
+    flex: 1;
+    max-width: 400px;
+    height: 400px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: black;
+    margin-top: 165px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .menu {
+    flex: 1;
+    height: 400px;
+    justify-content: center;
+    flex: content;
+    margin-top: 165px;
+    max-width: 400px;
+    background-color: black;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+   
+  }
+  
+  select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button {
+    background-color: #ff4500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff6300;
+  }
+  
+  /* Animation for button click */
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Animation for select dropdown */
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 24px;
+    padding-right: 30px;
+  }
+  
+  /* Additional styling for a gaming theme */
+  body {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .menu h2 {
+    color: #ff4500;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+  }
+  
+  .menu li strong {
+    color: #ff4500;
+  }
+  
+
+  /* Community Section .....................................................................................*/
+  .containerx{
+    color: whitesmoke;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(to right, #ef7c0a,#fbfbfa);
+
+ }
+ .left-textx{
+    flex-basis: 35%;
+ }
+ 
+ .headingx{
+    font-size: 3rem;
+    text-align: center;
+ }
+ .subheadingx{
+    margin-top: 10px;
+    text-align: center;
+ }
+ .join-button{
+  width: 150px;
+  margin-left: 190px;
+ }
+.join-button:hover{
+  color: red;
+  background-color: white;
+}
+ .galleryx{
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 120px;
+    flex-basis: 50%;
+    display: grid;
+    gap: 8px;
+  
+ }
+ .boxx{
+    background-size: cover;
+    background-position:top ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+ }
+ .boxx:hover{
+    background-color: #999;
+    background-position: center;
+    box-shadow: 0 0 4px white;
+    
+ }
+.row-2{
+    grid-row: span 2;
+}
+.col-2{
+    grid-column: span 2;
+}
+  
+  /* Footer................../////////////////////////////////////////...........................................*/
+  footer {
+    height: 260px;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.custom-footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-popular-games, .custom-latest-news, .custom-follow-us {
+    width: 30%;
+}
+
+h3 {
+    color: #ff6600;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Gaming theme animations */
+footer {
+    border-top: 2px solid #ff6600;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px #ff6600;
+    }
+    to {
+        box-shadow: 0 0 20px #ff6600;
+    }
+}
+
+  
+ 
